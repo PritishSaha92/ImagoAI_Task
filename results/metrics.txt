@@ -1,0 +1,49 @@
+Data Processing Information:
+--------------------------------------------------
+Total samples: 500
+Number of features: 1117
+Training set size: 320
+Validation set size: 80
+Test set size: 100
+
+Dimensionality Reduction Information:
+--------------------------------------------------
+PCA components retained: 10
+t-SNE components retained: 3
+
+Model Performance:
+--------------------------------------------------
+LSTM Model:
+  MAE: N/A
+  RMSE: N/A
+  R²: N/A
+
+  Optimal Parameters:
+    lstm_layers: 47.0
+    dense_layers: 90.0
+    dropout_rate: 0.40082374738014737
+    learning_rate: 0.0005524777639220163
+
+CNN Model:
+  MAE: N/A
+  RMSE: N/A
+  R²: N/A
+
+  Optimal Parameters:
+    filters: 32
+    kernel_size: 3
+    dense_layers: 64
+    dropout_rate: 0.3
+    learning_rate: 0.0005
+
+NN Model:
+  MAE: N/A
+  RMSE: N/A
+  R²: N/A
+
+  Optimal Parameters:
+    hidden_layers: 211.0
+    num_layers: 4.0
+    dropout_rate: 0.15570789611872168
+    learning_rate: 0.00028133357559618534
+
