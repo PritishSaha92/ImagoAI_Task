@@ -45,7 +45,6 @@ The analysis was performed on a dataset containing:
   - LSTM Model (47 LSTM units, 90 dense units)
   - CNN Model (32 filters, kernel size 3, 64 dense layers)
   - Attention-based Model for feature importance focus
-  - Hybrid CNN-LSTM Model for combined spatial-temporal analysis
 
 ### Model Training
 - Custom early stopping implementation with patience of 10 epochs
@@ -103,7 +102,6 @@ The project is implemented in a Jupyter notebook (ImagoAI_Assign.ipynb) with the
    - LSTM model development
    - CNN model architecture
    - Attention mechanism implementation
-   - Hybrid CNN-LSTM model development
    
 4. **Model Training**
    - Batch processing
